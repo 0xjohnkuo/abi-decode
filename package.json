@@ -1,0 +1,23 @@
+{
+  "name": "abi-decode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xjohnkuo/abi-decode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xjohnkuo/abi-decode/issues"
+  },
+  "homepage": "https://github.com/0xjohnkuo/abi-decode#readme",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "read-yaml-file": "^2.1.0"
+  }
+}
