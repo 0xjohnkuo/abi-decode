@@ -3,17 +3,20 @@
 ## installation
 
 1. copy repository
-> git clone https://github.com/0xjohnkuo/abi-decode
+
+`git clone https://github.com/0xjohnkuo/abi-decode`
 
 2. install package at local
-> cd abi-decode && npm install
+
+`cd abi-decode && npm install`
 
 3. edit input.yaml, and paste in the contract abi
-contract abi can be found at cronoscan
-for example, the `Contract ABI` section of https://cronoscan.com/address/0x8d13982c702fe7c6537529986df67dabeafc4c19#code
+contract abi & inputs. 
+ABI can be found at cronoscan, for example, the "Contract ABI" section of https://cronoscan.com/address/0x8d13982c702fe7c6537529986df67dabeafc4c19#code
 
 4. start decoding
-> npm start
+
+`npm start`
 
 5. result example
 ```
