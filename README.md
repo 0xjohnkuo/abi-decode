@@ -20,6 +20,7 @@ ABI can be found at cronoscan, for example, the "Contract ABI" section of https:
 
 5. result example
 ```
+function name: zapIn
 input#0: _toTokenOrLp, type: address
 input#1: _outputAmountMin, type: uint256
 --- result ---
