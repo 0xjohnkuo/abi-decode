@@ -11,6 +11,7 @@ readYamlFile('input.yaml').then(data => {
 
             })
             found = true
+            return
         }
     })
     if (!found){
