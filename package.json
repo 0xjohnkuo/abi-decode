@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "decode": "node abi-decode/main.js",
+    "broadcast": "node broadcast-tx/main.js"
   },
   "repository": {
     "type": "git",

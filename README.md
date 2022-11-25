@@ -16,7 +16,7 @@ ABI can be found at cronoscan, for example, the "Contract ABI" section of https:
 
 4. start decoding
 
-`npm start`
+`npm run decode`
 
 5. result example
 ```
@@ -27,3 +27,9 @@ input#1: _outputAmountMin, type: uint256
 input#0: 0xbf62c67eA509E86F07c8c69d0286C0636C50270b
 input#1: 63454539553771227830
 ```
+
+6. edit input.yaml, and paste in tx data, account private key, and destination contract. e.g. ferro swap contract
+
+7. start decoding
+`npm run broadcast`
+

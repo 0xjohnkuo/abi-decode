@@ -1,7 +1,8 @@
 const { ethers } = require("ethers");
 const readYamlFile = require('read-yaml-file')
 
-readYamlFile('input.yaml').then(data => {
+readYamlFile('input.yaml').then(inputs => {
+    let data = inputs["abi-decode"]
     let found = false
     console.log(`function name: ${data.function}`)
     data.abi.forEach(val => {
