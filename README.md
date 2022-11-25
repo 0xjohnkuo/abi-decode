@@ -34,3 +34,9 @@ input#1: 63454539553771227830
 
 `npm run broadcast`
 
+8. result example
+```
+using address 0xd9f5e45D713c79049239E65FFE6AB8bE02e74719 to sign the transaction
+https://cronoscan.com/tx/0x3ecc8b0c6423b9d93e7c3e7a59cae6186ef6b0d9df4d51f5800a0b9468f44e80
+```
+

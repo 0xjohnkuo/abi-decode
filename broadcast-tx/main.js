@@ -3,7 +3,6 @@ const readYamlFile = require('read-yaml-file')
 
 readYamlFile('input.yaml').then(async inputs => {
     let input = inputs["broadcast-tx"]
-    console.log(input["privateKey"])
     let account = new ethers.Wallet(input.privateKey)
     console.log(`using address ${account.address} to sign the transaction`)
 
