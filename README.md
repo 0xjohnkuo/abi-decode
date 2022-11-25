@@ -1,4 +1,4 @@
-# abi-decode
+# ether utility
 
 ## installation
 
@@ -30,6 +30,7 @@ input#1: 63454539553771227830
 
 6. edit input.yaml, and paste in tx data, account private key, and destination contract. e.g. ferro swap contract
 
-7. start decoding
+7. start broadcasting tx 
+
 `npm run broadcast`
 
