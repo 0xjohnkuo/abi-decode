@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "decode": "node abi-decode/main.js",
-    "broadcast": "node broadcast-tx/main.js"
+    "broadcast": "node broadcast-tx/main.js",
+    "deploy": "node deploy-contract/main.js"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,8 @@
+deploy-contract:
+  bin: "deploy-contract/multicall.bin"
+  abi: "deploy-contract/multicall.abi"
+  rpc: "https://cronos-dryrun.3ona.co:8545"
+  privateKey: "<use your own key>"  # do not upload
 broadcast-tx:
   privateKey: "<use your own key>"  # do not upload
   to: "0xe8d13664a42B338F009812Fa5A75199A865dA5cD"
